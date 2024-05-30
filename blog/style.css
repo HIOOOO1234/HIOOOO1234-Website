@@ -67,7 +67,7 @@ nav ul {
 
 .scroll span {
     color: var(--orange);
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .box {
@@ -106,6 +106,8 @@ html {
     background-color: var(--container-bg);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+
 }
 
 .container h1 {
