@@ -115,6 +115,7 @@ html {
 .container h1 {
     color: var(--light-gray);
     font-size: 2.5rem;
+    font-weight: 400;
 }
 
 .container a {
@@ -126,4 +127,14 @@ html {
     color: var(--light-gray);
     text-decoration: underline;
     transition: color 0.3s;
+}
+
+
+.contents li a:hover {
+    color: #151324;
+    background-color: #f3c892; 
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px;
+    border-radius: 5px; 
 }
