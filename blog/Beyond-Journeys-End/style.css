@@ -27,6 +27,18 @@ body {
     background-color: #393838;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.contents:hover {
+    background-color: #4a4a4a; /* Highlight color on hover */
+}
+
+
+.contents li a:hover {
+    color: #2f2f32;
+    text-decoration: underline;
+    transition: color 0.3s;
 }
 
 .contents h2 {
