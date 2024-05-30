@@ -92,7 +92,7 @@ a {
 }
 
 .container a:hover {
-    color: var(--light-gray);
+    color: #e7e2db;
     text-decoration: underline;
     transition: color 0.3s;
 }
