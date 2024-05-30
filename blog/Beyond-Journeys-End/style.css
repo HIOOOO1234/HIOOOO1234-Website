@@ -51,7 +51,9 @@ body {
 }
 
 .contents a:hover {
+    color: var(--light-gray);
     text-decoration: underline;
+    transition: color 0.3s;
 }
 
 main {
@@ -89,6 +91,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.container a:hover {
+    color: var(--light-gray);
     text-decoration: underline;
+    transition: color 0.3s;
 }
