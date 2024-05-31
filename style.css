@@ -36,10 +36,10 @@ main {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 1.5rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
 nav {
@@ -70,17 +70,18 @@ nav ul {
 
 .big-name {
     color: var(--light-gray);
-    font-size: 6rem;
-    font-weight: 600;
+    font-size: 8rem;
+    font-weight: 620;
     text-align: center;
     line-height: 1.1;
-    margin: 2rem 0;
+    margin: 5rem 0 2rem 0;
+
 }
 
 .big-name span {
     display: block;
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 1.1em;
+    font-weight: 450;
 }
 
 .bottom-section {
@@ -112,6 +113,8 @@ nav ul {
     align-items: center;
     margin-top: 2rem;
     animation: bounce 2s infinite;
+    position: absolute;
+    bottom: 20px;
 }
 
 .scroll span {
@@ -178,7 +181,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .project {
     background-color: #444;
     padding: 20px;
@@ -205,4 +207,13 @@ html {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
 }
