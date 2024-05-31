@@ -74,8 +74,7 @@ nav ul {
     font-weight: 620;
     text-align: center;
     line-height: 1.1;
-    margin: 5rem 0 2rem 0;
-
+    margin: 5rem 0 2rem 0; /* Adjusted margin-top to move it down */
 }
 
 .big-name span {
@@ -185,7 +184,7 @@ html {
     background-color: #444;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced margin-bottom to bring projects closer */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -215,5 +214,4 @@ html {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 2rem 0;
-}
+    padding: 1rem 0; 
